@@ -1,0 +1,49 @@
+
+nav{
+    transform: translate(0.1%,102%);
+}
+#links a:nth-child(1){
+    color: rgb(73, 72, 72);
+}
+#negishut {
+    transform: translate(-2043%, -270%) scale(80%);
+}
+#screen{
+    margin-top: 5%;
+    background-color:#b0b0b0;
+    padding-right: 53.5%;
+}
+#formnativ{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color:#cc1e2f;
+}
+
+#fieldsetss{
+    width:12%;
+    border-color: #cc1e2f;
+    border-radius: 10px;
+    margin-right: 28%;
+    width: 40%;
+    margin-bottom: -6%;
+}
+#button{
+    background-color:#cc1e2f;
+    margin-bottom: 6%;
+}
+#button:hover{
+   background-color:white;
+}
+#middle{
+    font-family: Heebo;
+    color: black;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -43.5%;
+    margin-right: 10%;
+    box-shadow: 1px -1px 50px 1px black;
+}

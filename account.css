@@ -1,0 +1,42 @@
+#links a:nth-child(1) {
+    color: rgb(73 72 72);
+}
+
+#links a:nth-child(6) {
+    color: #cc2033;
+}
+nav{
+    transform: translate(0.1%,109%);
+}
+#sec{
+    margin-top: 3%;
+}
+body{
+    direction: rtl;
+    font-family: Heebo;
+}
+#backgroundnativ{
+    background-color: #efefef;
+}
+#HeaderText{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    color: #464444c9;
+}
+#Squares{
+    margin-top: 1.7%;
+    margin-right: 29.3%;
+    
+}
+#Squares a{
+     margin-right: 1%;
+}
+#picturenativ{
+    width: 600px;
+    transform: translate(-80%,10%);
+    margin-bottom: 200px;
+}
+
+
+

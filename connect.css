@@ -1,0 +1,52 @@
+nav {
+    margin-top: -0.9%;
+}
+
+#links a:nth-child(1) {
+    color: rgb(73 72 72);
+}
+
+#links a:nth-child(3) {
+    color: #cc2033;
+}
+section>img {
+
+    background-color: #edeced;
+    margin-top: -43.5%;
+    width: 24.3%;
+    padding-left: 76%;
+    padding-bottom: 8%;
+    padding-top: 1%;
+}
+
+section>p {
+    display: inline-block;
+    font-family: Heebo;
+    font-weight: bold;
+    color: rgb(73, 72, 72);
+    font-size: 200%;
+    position: absolute;
+    margin-top: -44%;
+    margin-right: 44%;
+}
+
+#turn {
+    display: flex;
+    width: 47%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: solid 2px black;
+    border-radius: 32px;
+    padding: 2%;
+    position: absolute;
+    margin-right: 35%;
+    margin-top: -37.5%;
+}
+
+.makor:hover {
+    display: none;
+}
+
+.makor img {
+    position: absolute;
+}

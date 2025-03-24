@@ -1,0 +1,135 @@
+nav{
+    margin-top: -0.9%;
+}
+#links a:nth-child(1) {
+    color: rgb(73 72 72);
+}
+
+#links a:nth-child(5) {
+    color: #cc2033;
+}
+#imgeder{
+    background-image: url(./assets/הורדה\ \(18\).jpg);
+    width: 100%;
+    height: 255px;
+    margin-top:-45%;
+}
+#imgeder h1{
+    color: white;
+    font-family: Heebo ExtraBold;
+    text-align: center;
+    font-size: 75px;
+    padding-top:110px;
+}
+#succsess{
+    color: #4a4949;
+    font-family: Heebo ExtraBold;
+    text-align: center;
+    font-size: 35px;
+    padding-top:20px;
+}
+#company{
+    margin-right: 27%;
+    margin-top: -2%;
+}
+#textp{
+    margin-top: 40px;
+    background-color: #216896;   
+
+}
+
+
+
+#textp h1 ,#textp p,#textp a{
+    font-family: Heebo ; 
+    color: white;
+    font-size: 25px;
+    margin-right: 50%;
+}
+#textp p{
+    margin-top: 0.5%;
+}
+#textp h1{
+    padding-top:4%;
+    font-size: 37px;
+    line-height: 2%;
+}
+
+.textbold{
+    font-family: Heebo ExtraBold;
+}
+#computer{
+   margin-right: 20%;
+  transform: translateY(-20%)scale(115%);
+  margin-top: -100%;
+
+}
+#computer:hover{
+    transform: scale(130%)
+}
+#textImg{
+    width: 55%;
+    margin-right: 20%;
+}
+#personal{
+    background-color: #efefef;
+}
+#personal img:first-child{
+    width: 60%;
+    margin-right:30%;
+    margin-top: 2.5%;
+
+    
+}
+#personal img:nth-child(2){
+    width: 20%;
+    margin-left: 60%;
+    margin-top: -25%;
+    transform: translateY(-15%)translateX(-40%);
+    
+    
+}
+#borderText{
+    margin-top: 5%;
+    margin-bottom: 20%;
+    margin-right: 16%;
+    font-family: Heebo ; 
+    color: #191818C9;
+    border: solid 3px #CD2033;
+    padding: 4.3%;
+    padding-right: 4.3%;
+    border-radius: 30px;
+}
+#borderText h1{
+ font-size: 36px;
+ margin-bottom: 0.4%;
+}
+#borderText p{
+    font-size: 25px;
+}
+#bottomImg{
+    z-index: 3;
+    margin-top:-80%;
+    transform: translateY(-85%)translateX(-200%);
+}
+#lastLink{
+    background-color: #CD2033;
+    border-radius: 50px;
+    padding: 0.2%;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    font-family: Heebo ExtraBold;
+    font-size: 27px;
+    margin-right: 3%;
+    margin-bottom: 0.5%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+

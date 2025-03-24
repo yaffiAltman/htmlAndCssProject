@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>נתיב - סינון אתרים/אינטרנט כשר</title>
+    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="./homePageStyle.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <form>
+                <select name="languages" id="languages">
+                    <option value="עברית" selected>עברית</option>
+                    <option value="English">English</option>
+                </select>
+            </form>
+            <a href="./homePage.html"><img src="./assets/הורדה (13).png" id="logo" alt="logo"></a>
+            <div id="links">
+                <a href="./homePage.html">בית</a>
+                <a href="./recommendations.html">הסכמות והמלצות</a>
+                <a href="./connect.html">צרו קשר</a>
+                <a href="./technicalSupport.html">תמיכה טכנית</a>
+                <a href="./about.html">אודות</a>
+                <a href="./account.html">ניהול החשבון בנתיב</a>
+                <a href="./account.html">להצטרפות >></a>
+            </div>
+            <img src="./assets/נגישות2.png" id="negishut" alt="">
+        </nav>
+    </header>
+    <img src="./assets/רקע טופס.png" alt=""id="screen">
+    <section id="middle">
+        <h1>הצטרפו אלינו</h1>
+        <form action="./succesfull.html" id="formnativ">
+            <label for="firstName">שם פרטי:</label>
+            <input type="text" id="firstName" name="firstName" required placeholder="הכנס שם פרטי"><br><br>
+            <label for="lastName">שם משפחה:</label>
+            <input type="text" id="lastName" name="lastName" required placeholder="הכנס שם משפחה"></br></br>
+            <label for="ID">תעודת זהות:</label>
+            <input type="text" id="ID" name="ID" required placeholder="הכנס מספר זהות"><br><br>
+            <label for="city">עיר:</label>
+            <select name="city" id="chooseCity">
+                <option value="בניברק">בני ברק</option>
+                <option value="ירושלים">ירושלים</option>
+                <option value="חיפה">חיפה</option>
+                <option value="ביתר">ביתר</option>
+                <option value="מודיעין עילית">מודיעין עילית</option>
+                <option value="תל-אביב">תל-אביב</option>
+            </select><br><br>
+            <label for="phone">טלפון:</label>
+            <input type="text" id="phone" name="phone" required placeholder="הכנס מספר טלפון"><br><br>
+            <label for="email">מייל</label>
+            <input type="email" id="email" name="email" required placeholder="הכנס כתובת מייל"><br /></br>
+            <fieldset id="fieldsetss">
+                <legend>מאיפה שמעת עלינו?</legend>
+                <input type="checkbox" name="work][]" value="1" id="1">
+                <label>משפחה</label><br />
+                <input type="checkbox" name="work][]" value="2" id="2">
+                <label>ידידים</label><br />
+                <input type="checkbox" name="work][]" value="3" id="3">
+                <label>אחר..</label>
+            </fieldset></br></br>
+            <label>הערות:</label></br>
+            <button id="button" type="submit">שליחה</button>
+            <button id="button" type="reset">לניקוי</button>
+        </form>
+    </section>
+
+
+</body>
+
+</html>
